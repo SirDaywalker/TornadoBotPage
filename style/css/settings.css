@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Hemi-Head;
+  src: url(../../../font/hemi\ head\ bd\ it.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../../../font/Roboto-Medium.ttf);
+}
+html {
+  font-family: Roboto;
+  color: white;
+}
+
+body {
+  background-color: #2a2b31;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Hemi-Head;
+}
+
+.main {
+  overflow-x: hidden;
+}
+
+.main_content {
+  position: relative;
+  float: left;
+  width: calc(100vw - 100px);
+  height: calc(100vh - 20px);
+}/*# sourceMappingURL=settings.css.map */

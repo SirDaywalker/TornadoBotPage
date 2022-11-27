@@ -1,0 +1,29 @@
+@import "../assets/settings.scss";
+@import "../assets/nav.scss";
+
+// to set to big screen
+#home{
+    border-radius: 20px;        
+    &::before{
+        content: "";
+        position: absolute;
+        top: 6px;
+        left : -8px;
+        height: 40px;
+        width: 4px;
+        border-radius: 2px;
+        background: white;
+    }
+}
+
+.main_h{
+    //color:
+    background-image: linear-gradient(90deg, #ef2b11 0%, #f2751b 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+    font-size: 5em;
+    width: 485px;
+    margin: 0;
+}

@@ -1,0 +1,17 @@
+@import "../assets/settings.scss";
+@import "../assets/nav.scss";
+
+// to set to big screen
+#desktopApp{
+    border-radius: 20px;        
+    &::before{
+        content: "";
+        position: absolute;
+        top: 6px;
+        left : -8px;
+        height: 40px;
+        width: 4px;
+        border-radius: 2px;
+        background: white;
+    }
+}

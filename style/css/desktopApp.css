@@ -1,0 +1,117 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #2a2b31;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  overflow-x: hidden;
+}
+
+.main_content {
+  float: left;
+  width: calc(100vw - 100px);
+  height: calc(100vh - 20px);
+}
+
+.sidebar {
+  background-color: #24252a;
+  height: calc(100vh - 20px);
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.header {
+  background-color: #24252a;
+  width: 100vw;
+  height: 20px;
+}
+
+.nav {
+  height: 55px;
+  width: 55px;
+  border-radius: 27.5px;
+  margin-left: 21px;
+  margin-bottom: 7px;
+  position: relative;
+  transition: all 250ms;
+  background-size: 100%;
+}
+.nav:hover {
+  transition: all 250ms;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.nav:hover::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -8px;
+  height: 25px;
+  width: 2.5px;
+  border-radius: 2px;
+  background: white;
+}
+.nav:hover::after {
+  content: "";
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 78px;
+  height: 25px;
+  width: auto;
+  border-radius: 2px;
+  background: #111114;
+  padding: 2px 5px 2px 5px;
+}
+
+#home {
+  background-image: url("/imgs/tornadobotIcon.png");
+}
+#home:hover::after {
+  content: "Home";
+}
+
+#desktopApp {
+  background-image: url("/imgs/electronLogo.png");
+}
+#desktopApp:hover::after {
+  content: "DesktopApp";
+}
+
+#changeLog {
+  background-color: blue;
+}
+#changeLog:hover::after {
+  content: "ChangeLog";
+}
+
+#documentation {
+  background-color: green;
+}
+#documentation:hover::after {
+  content: "Documentation";
+}
+
+#desktopApp {
+  border-radius: 20px;
+}
+#desktopApp::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -8px;
+  height: 40px;
+  width: 4px;
+  border-radius: 2px;
+  background: white;
+}/*# sourceMappingURL=desktopApp.css.map */
