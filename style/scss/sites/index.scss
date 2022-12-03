@@ -25,5 +25,38 @@
     text-align: center;
     font-size: 5em;
     width: 485px;
-    margin: 0;
+    margin: auto;
+}
+
+.sub_h{
+    font-family: Roboto;
+    text-align: center;
+    margin: auto;
+}
+
+.stats{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.attribut_container{
+    margin-left: 55px;
+    width: 150px;
+    float: left;
+    text-align: left;
+}
+
+.attributs{
+    &::before{
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-color: green;
+        margin-right: 7px;
+    }
+}
+
+.intro{
+    float: right;
 }

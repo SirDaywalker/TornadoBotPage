@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #documentation {
-  background-color: green;
+  background-image: url("/imgs/documentationLogo.png");
 }
 #documentation:hover::after {
   content: "Documentation";
@@ -137,5 +137,36 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-size: 5em;
   width: 485px;
-  margin: 0;
+  margin: auto;
+}
+
+.sub_h {
+  font-family: Roboto;
+  text-align: center;
+  margin: auto;
+}
+
+.stats {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.attribut_container {
+  margin-left: 55px;
+  width: 150px;
+  float: left;
+  text-align: left;
+}
+
+.attributs::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  margin-right: 7px;
+}
+
+.intro {
+  float: right;
 }/*# sourceMappingURL=index.css.map */

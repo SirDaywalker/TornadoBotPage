@@ -82,8 +82,7 @@
 }
 
 #documentation{
-    // background-image: url("/imgs/tornadobotIcon.png");
-    background-color: green;
+    background-image: url("/imgs/documentationLogo.png");
     &:hover{ 
         &::after{
             content: "Documentation";
