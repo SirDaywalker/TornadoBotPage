@@ -52,14 +52,14 @@
 }
 
 #home {
-  background-image: url("/imgs/tornadobotIcon.png");
+  background-image: url("../../../imgs/tornadobotIcon.png");
 }
 #home:hover::after {
   content: "Home";
 }
 
 #desktopApp {
-  background-image: url("/imgs/electronLogo.png");
+  background-image: url("../../../imgs/electronLogo.png");
 }
 #desktopApp:hover::after {
   content: "DesktopApp";
@@ -73,7 +73,14 @@
 }
 
 #documentation {
-  background-image: url("/imgs/documentationLogo.png");
+  background-image: url("../../../imgs/documentationLogo.png");
+}
+#documentation:hover::after {
+  content: "Documentation";
+}
+
+#documentation {
+  background-image: url("../../../imgs/documentationLogo.png");
 }
 #documentation:hover::after {
   content: "Documentation";

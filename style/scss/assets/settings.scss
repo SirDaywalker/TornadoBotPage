@@ -34,5 +34,26 @@ h1, h2, h3, h4, h5, h6{
     position: relative;
     float: left;
     width: calc(100vw - 100px);
-    height: calc(100vh - 20px);
+}
+
+.row{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_item{
+    height: 160px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.version{
+    float: right;
+    color: #b8b8b8;
+    font-size: x-small;
+    margin-right: 15px;
 }

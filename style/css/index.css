@@ -31,7 +31,28 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   float: left;
   width: calc(100vw - 100px);
-  height: calc(100vh - 20px);
+}
+
+.row {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row_item {
+  height: 160px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.version {
+  float: right;
+  color: #b8b8b8;
+  font-size: x-small;
+  margin-right: 15px;
 }
 
 .sidebar {
@@ -88,14 +109,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home {
-  background-image: url("/imgs/tornadobotIcon.png");
+  background-image: url("../../../imgs/tornadobotIcon.png");
 }
 #home:hover::after {
   content: "Home";
 }
 
 #desktopApp {
-  background-image: url("/imgs/electronLogo.png");
+  background-image: url("../../../imgs/electronLogo.png");
 }
 #desktopApp:hover::after {
   content: "DesktopApp";
@@ -109,7 +130,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #documentation {
-  background-image: url("/imgs/documentationLogo.png");
+  background-image: url("../../../imgs/documentationLogo.png");
+}
+#documentation:hover::after {
+  content: "Documentation";
+}
+
+#documentation {
+  background-image: url("../../../imgs/documentationLogo.png");
 }
 #documentation:hover::after {
   content: "Documentation";
@@ -146,27 +174,26 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
-.stats {
-  margin-top: 75px;
-  text-align: center;
+.row_1 {
+  margin-top: 150px;
 }
 
-.attribut_container {
-  margin-left: 55px;
-  width: 150px;
-  float: left;
+.attributs_container {
   text-align: left;
 }
 
 .attributs::before {
-  content: "";
+  content: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3Csvg id='Layer_1' style='enable-background:new 0 0 512 512;' version='1.1' viewBox='0 0 512 512' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%2341AD49;%7D%0A%3C/style%3E%3Cg%3E%3Cpolygon class='st0' points='434.8,49 174.2,309.7 76.8,212.3 0,289.2 174.1,463.3 196.6,440.9 196.6,440.9 511.7,125.8 434.8,49 '/%3E%3C/g%3E%3C/svg%3E");
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-color: green;
   margin-right: 7px;
 }
 
-.intro {
-  float: right;
+.divider {
+  width: 1000px;
+  margin-top: 15px;
+  border-bottom: 4px solid #24252a;
+  margin: auto;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */

@@ -4,7 +4,7 @@
     width: 100px;
     margin: 0;
     padding: 0;
-    float: left;
+    float: left;    
 }
 
 .header{
@@ -54,7 +54,7 @@
 }
 
 #home{
-    background-image: url("/imgs/tornadobotIcon.png");
+    background-image: url("../../../imgs/tornadobotIcon.png");
     &:hover{ 
         &::after{
             content: "Home";
@@ -63,7 +63,7 @@
 }
 
 #desktopApp{
-    background-image: url("/imgs/electronLogo.png");
+    background-image: url("../../../imgs/electronLogo.png");
     &:hover{ 
         &::after{
             content: "DesktopApp";
@@ -72,7 +72,7 @@
 }
 
 #changeLog{
-    // background-image: url("/imgs/tornadobotIcon.png");
+    // background-image: url("../../../imgs/tornadobotIcon.png");
     background-color: blue;
     &:hover{ 
         &::after{
@@ -82,7 +82,16 @@
 }
 
 #documentation{
-    background-image: url("/imgs/documentationLogo.png");
+    background-image: url("../../../imgs/documentationLogo.png");
+    &:hover{ 
+        &::after{
+            content: "Documentation";
+        }
+    }
+}
+
+#documentation{
+    background-image: url("../../../imgs/documentationLogo.png");
     &:hover{ 
         &::after{
             content: "Documentation";
