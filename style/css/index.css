@@ -25,6 +25,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
   overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 100px calc(100vw - 100px);
 }
 
 .main_content {
@@ -71,16 +73,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar {
   background-color: #24252a;
-  height: calc(100vh - 20px);
+  height: 100%;
   width: 100px;
   margin: 0;
-  padding: 0;
+  padding-top: 20px;
   float: left;
 }
 
 .header {
   background-color: #24252a;
-  width: calc(100vw - 100px);
+  width: 100vw;
   height: 20px;
 }
 
