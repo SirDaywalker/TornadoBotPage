@@ -1,10 +1,10 @@
 @font-face {
   font-family: Hemi-Head;
-  src: url(../../../font/hemi\ head\ bd\ it.ttf);
+  src: url(./../../../font/hemi\ head\ bd\ it.ttf);
 }
 @font-face {
   font-family: Roboto;
-  src: url(../../../font/Roboto-Medium.ttf);
+  src: url(./../../../font/Roboto-Medium.ttf);
 }
 html {
   font-family: Roboto;
@@ -55,6 +55,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 15px;
 }
 
+.view {
+  padding: 9px 25px;
+  background-color: #f2751b;
+  box-shadow: inset 0 0 0.5em 0 #ef2b11, 0 0 0.5em 0 #ef2b11;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.view:hover {
+  transition: all 0.3s ease 0s;
+  box-shadow: -3px -3px 7px #ef2b11, 3px 3px 5px rgba(94, 104, 121, 0.288), inset 0 0 0.5em 0 #ef2b11, 0 0 0.5em 0 #ef2b11;
+}
+
 .sidebar {
   background-color: #24252a;
   height: calc(100vh - 20px);
@@ -66,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   background-color: #24252a;
-  width: 100vw;
+  width: calc(100vw - 100px);
   height: 20px;
 }
 
@@ -109,14 +123,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home {
-  background-image: url("../../../imgs/tornadobotIcon.png");
+  background-image: url("./../../../imgs/tornadobotIcon.png");
 }
 #home:hover::after {
   content: "Home";
 }
 
 #desktopApp {
-  background-image: url("../../../imgs/electronLogo.png");
+  background-image: url("./../../../imgs/electronLogo.png");
 }
 #desktopApp:hover::after {
   content: "DesktopApp";
@@ -130,14 +144,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #documentation {
-  background-image: url("../../../imgs/documentationLogo.png");
+  background-image: url("./../../../imgs/documentationLogo.png");
 }
 #documentation:hover::after {
   content: "Documentation";
 }
 
 #documentation {
-  background-image: url("../../../imgs/documentationLogo.png");
+  background-image: url("./../../../imgs/documentationLogo.png");
 }
 #documentation:hover::after {
   content: "Documentation";
@@ -164,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-text-fill-color: transparent;
   text-align: center;
   font-size: 5em;
-  width: 485px;
+  width: 500px;
   margin: auto;
 }
 
@@ -188,6 +202,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 15px;
   height: 15px;
   margin-right: 7px;
+}
+
+.row_2 {
+  height: 70px;
 }
 
 .divider {

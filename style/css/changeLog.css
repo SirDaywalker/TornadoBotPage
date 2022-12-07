@@ -1,10 +1,10 @@
 @font-face {
   font-family: Hemi-Head;
-  src: url(../../../font/hemi\ head\ bd\ it.ttf);
+  src: url(./../../../font/hemi\ head\ bd\ it.ttf);
 }
 @font-face {
   font-family: Roboto;
-  src: url(../../../font/Roboto-Medium.ttf);
+  src: url(./../../../font/Roboto-Medium.ttf);
 }
 html {
   font-family: Roboto;
@@ -109,14 +109,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home {
-  background-image: url("../../../imgs/tornadobotIcon.png");
+  background-image: url("./../../../imgs/tornadobotIcon.png");
 }
 #home:hover::after {
   content: "Home";
 }
 
 #desktopApp {
-  background-image: url("../../../imgs/electronLogo.png");
+  background-image: url("./../../../imgs/electronLogo.png");
 }
 #desktopApp:hover::after {
   content: "DesktopApp";
@@ -130,30 +130,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #documentation {
-  background-image: url("../../../imgs/documentationLogo.png");
+  background-image: url("./../../../imgs/documentationLogo.png");
 }
 #documentation:hover::after {
   content: "Documentation";
 }
 
 #documentation {
-  background-image: url("../../../imgs/documentationLogo.png");
+  background-image: url("./../../../imgs/documentationLogo.png");
 }
 #documentation:hover::after {
   content: "Documentation";
-}
-
-.github {
-  top: 20vh;
-  background-image: url("../../../imgs/gitHub.png");
-}
-
-#Staubtornado:hover::after {
-  content: "Staubtornado'sGitHub";
-}
-
-#SirDaywalker:hover::after {
-  content: "Daywalker'sGitHub";
 }
 
 #changeLog {
