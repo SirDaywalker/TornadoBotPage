@@ -1,6 +1,6 @@
-@import "../assets/settings.scss";
-@import "../assets/button.scss";
-@import "../assets/nav.scss";
+@import "../assets/_settings.scss";
+@import "../assets/_button.scss";
+@import "../assets/_nav.scss";
 
 // to set act nav to big screen
 #home{
@@ -55,6 +55,10 @@
 
 .row_2{
     height: 70px;
+}
+
+.view{
+    margin:  0 130px 0 125px;
 }
 
 .divider{
